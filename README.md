@@ -19,7 +19,7 @@ Serving the HTML pages.
 ### Step 5:
 
 Testing the webserver.
-## ROGRAM:
+##PROGRAM:
 
 from django.shortcuts import render,HttpResponse
 from http.server import HTTPServer,BaseHTTPRequestHandler
