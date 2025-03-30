@@ -19,8 +19,8 @@ Serving the HTML pages.
 ### Step 5:
 
 Testing the webserver.
-##PROGRAM:
-
+## PROGRAM:
+```
 from django.shortcuts import render,HttpResponse
 from http.server import HTTPServer,BaseHTTPRequestHandler
 content='''
@@ -140,7 +140,7 @@ print("This is my webserver")
 serveraddress=('',8000)
 httpd = HTTPServer(serveraddress,Myserver)
 httpd.serve_forever()
-
+```
 
 ## OUTPUT:
 ![WhatsApp Image 2025-03-30 at 23 52 24_3f57fb3d](https://github.com/user-attachments/assets/2769f225-f20f-4b5b-ab0f-79b0851f47f1)
